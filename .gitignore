@@ -27,3 +27,39 @@ npm-debug.log.*
 *.css.d.ts
 *.sass.d.ts
 *.scss.d.ts
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Prisma
+prisma/*.db
+prisma/migrations/
+.env
+
+# IDE - VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build output
+dist
+build
+*.tsbuildinfo
+
+# Environment variables
+.env*
+!.env.example
+
+# Temp files
+.temp
+.tmp
+.cache
+
+# Testing
+coverage/
+__snapshots__/
+*.spec.js.snap
